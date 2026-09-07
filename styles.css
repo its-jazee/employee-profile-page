@@ -12,6 +12,10 @@ img{
 body{
     margin: 20px;
     background-color: rgb(210, 232, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
@@ -35,4 +39,30 @@ button{
     color: white;
     border-radius: 5px;
     padding: 5px 10px;
+}
+
+.container{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.skill-card{
+    background-color: rgb(164, 202, 230);
+    height: 150px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+li, ul{
+    padding: 0;
+    margin: 0;
+}
+
+.skill{
+    font-weight: bold;
+    font-size: 20px;
 }

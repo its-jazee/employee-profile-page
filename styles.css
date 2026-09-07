@@ -1,0 +1,38 @@
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+}
+
+body{
+    margin: 20px;
+    background-color: rgb(210, 232, 252);
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(164, 202, 230);
+    height: 150px;
+    width: 500px;
+}
+
+.button-display{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    background-color: rgb(101, 148, 188);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
